@@ -1,0 +1,155 @@
+nav{
+  background-color: rgb(51, 60, 86);
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+nav > h2 {
+  margin-left: 20px;
+}
+div .section-1, .section-2{
+  display: flex;
+  justify-content: center;
+}
+div .section-3{
+  display: flex;
+}
+.section-1 > .card-1{
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: rgb(37, 68, 154);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 150px;
+  width: 500px;
+}
+.section-1 > .card-2{
+  margin-top: 5%;
+  background-color: rgb(94, 122, 112);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 500px;
+  height: 150px;
+
+}
+.section-2 > .card-3{
+  margin-right: 5%;
+  margin-top: 1%;
+  background-color: rgb(95, 84, 82);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 500px;
+  height: 150px;
+
+}
+.section-2 > .card-4{
+  margin-top: 1%;
+  background-color: rgb(51, 60, 86);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 500px;
+  height: 150px;
+
+  align-items: center;
+}
+
+.section-3 > .card-5{
+  margin-right: 5%;
+  margin-top: 1%;
+  background-color: rgb(95, 84, 82);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 500px;
+  height: 150px;
+}
+
+.card-1 > h2{
+  font-size: 35px;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+.card-2 > h2{
+  font-size: 35px;
+  margin-left: 36%;
+  margin-right: 36%;
+}
+.card-3 > h2{
+  font-size: 35px;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+.card-4 > h2{
+  font-size: 35px;
+  margin-left: 36%;
+  margin-right: 36%;
+}
+.card-5 > h2{
+  font-size: 35px;
+  margin-left: 23%;
+  margin-right: 23%;
+}
+.card-1 > a{
+  padding: 6px 10px;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(50, 49, 49);
+  border-radius: 4px;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+.card-2 > a{
+  padding: 6px 10px;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(50, 49, 49);
+  border-radius: 4px;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+.card-3 > a{
+  padding: 6px 10px;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(50, 49, 49);
+  border-radius: 4px;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+.card-4 > a{
+  padding: 6px 10px;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(50, 49, 49);
+  border-radius: 4px;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+.card-5 > a{
+  padding: 6px 10px;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  color: rgb(50, 49, 49);
+  border-radius: 4px;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+@media screen and (max-width: 768px) {
+  .section-1, .section-2{
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .card-1, .card-2, .card-3, .card-4{
+    display: block;
+  }
+}
